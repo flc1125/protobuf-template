@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+package namespace.services;
+option go_package = "./sms/;sms";
+option php_namespace = "Namespace\\Services\\Sms";
+
+message Request {
+  string ping = 1;
+}
+
+message Response {
+  string pong = 1;
+}
+
+service Sms {
+  rpc ping(Request) returns(Response);
+}
