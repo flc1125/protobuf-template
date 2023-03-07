@@ -26,8 +26,7 @@
 git submodule add git@github.com:flc1125/protobuf-template.git grpc/protobuf
 ```
 
-> **目录说明：**  
-> `grpc/protobuf`: 仅为示例，推荐使用 `grpc/protobuf` 作为目录名
+> **目录说明：** `grpc/protobuf`: 仅为示例，推荐使用 `grpc/protobuf` 作为目录名
 
 ### 3.1. 环境依赖
 
